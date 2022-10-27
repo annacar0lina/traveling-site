@@ -1,0 +1,40 @@
+/* Display */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/* Body */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Raleway:wght@300;400;600;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Confortaa", serif;
+
+
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #2b81e4;
+    --secondary-color: #eee;
+    --white-color: #fff;
+    --grey-color: #555;
+    --light-grey-color: #777;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
